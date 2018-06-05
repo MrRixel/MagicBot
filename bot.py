@@ -73,11 +73,11 @@ def panel_locks(gp):
   
 for plugin in Plugins:
   try:
-    execfile("plugins/" + plugin + ".py")
+    execfile("Plugins/" + plugin + ".py")
     print("\033[1;36mLoading Plugin > " +"\033[0;32m" + plugin)
   except:
     print("\033[01;31mError In Loading Plugin " + plugin + "\033[0m")
-    print("\033[01;31m" + os.popen("python ./plugins/"+ plugin +".py").read() + "\033[0m")
+    print("\033[01;31m" + os.popen("python ./Plugins/"+ plugin +".py").read() + "\033[0m")
     sys.exit()
 print("\n\033[0;33mBot Is Running ...\n\033[0;33mMagic Star\033[0m")
 
