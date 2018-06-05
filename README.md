@@ -18,3 +18,4 @@ chmod +x install.sh
 chmod +x launch.sh
 screen ./lanch.sh
 ```
+> * test
