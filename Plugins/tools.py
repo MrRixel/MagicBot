@@ -57,6 +57,11 @@ def fwdgp(m):
         redis.srem('groups',all)
     bot.reply_to(m,'پیام به {} گروه فورارد شد 💪'.format(x))
 
+@bot.message_handler(func=lambda m: m.text == "دستورات")
+def helpsudo(m):
+  if is_sudo(m.from_user.id):
+   bot.reply_to(m,helpsudo)
+
 @bot.message_handler(func=lambda m: m.text == "خروج")
 def leave(m):
   if is_sudo(m.from_user.id) and 'supergroup' in m.chat.type:
