@@ -13,7 +13,7 @@ def get_id(m):
 >_آیدی شما_ : *{}*
 >_آیدی گروه_ : *{}*
 '''
-   bot.reply_to(m,text.format(m.from_user.id,m.chat.id),parse_mode='markdown',reply_markup=test(m.chat.id))
+   bot.reply_to(m,text.format(m.from_user.id,m.chat.id),parse_mode='markdown',reply_markup=panel_locks(m.chat.id))
 
 @bot.message_handler(func=lambda m: m.text == "راهنما")
 def help(m):
