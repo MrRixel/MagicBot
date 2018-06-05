@@ -63,7 +63,7 @@ starttext = '''
 ⚜️ ساخته شده با ❤️ فقط برای شما ☺️
 Git : https://github.com/Magic-Star/MagicBot.git '''
 
-plugins = [
+Plugins = [
 "start",
 "groupmanager",
 "tools",
