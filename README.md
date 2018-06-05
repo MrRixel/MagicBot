@@ -25,3 +25,6 @@ chmod +x install.sh
 chmod +x launch.sh
 screen ./lanch.sh
 ```
+
+برای دریافت اخبار آپدیت ها در [کانال مجیک استار](t.me/magicstar) عضو شوید
+>* روزانه آپدیت های جدید برای سورس قرار میدهیم
