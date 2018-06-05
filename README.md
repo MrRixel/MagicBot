@@ -1,19 +1,9 @@
-## Persian
 
-# Magic Star Bot
+# مجیک استار ورژن 1.2
 
-Magic Star Telegram Bot
+مجیک استار ربات آنتی اسپم تلگرام
 
-
-#### spntaBot on Telegram:
-
-- [`@testspntaBot`](https://telegram.me/testspntaBot)
-	- **_channel_**: [`@IT_SEYED`](https://telegram.me/IT_SEYED).
-	- **_Group_**: [https://t.me/joinchat/G5skD0Y1vtBtEsKGWP0xKw](https://t.me/joinchat/G5skD0Y1vtBtEsKGWP0xKw).
-* * *
-
-
-## Setup
+## نصب ربات
 
 **First of all, take a look at your bot settings**
 
