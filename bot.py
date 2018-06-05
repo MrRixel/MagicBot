@@ -71,7 +71,7 @@ def panel_locks(gp):
           markup.add(types.InlineKeyboardButton(str(ee)+str(typenames[i]),callback_data=callback),types.InlineKeyboardButton(e,callback_data=callback))
         return markup
   
-for plugin in plugins:
+for plugin in Plugins:
   try:
     execfile("plugins/" + plugin + ".py")
     print("\033[1;36mLoading Plugin > " +"\033[0;32m" + plugin)
