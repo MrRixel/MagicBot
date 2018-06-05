@@ -6,7 +6,7 @@
 # نصب ربات
 
 ```
-git clone https://github.com/Magic-Star/MagicBot
+>* git clone https://github.com/Magic-Star/MagicBot
 cd MagicBot
 chmod +x install.sh
 ./install.sh
