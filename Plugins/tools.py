@@ -60,7 +60,7 @@ def fwdgp(m):
 @bot.message_handler(func=lambda m: m.text == "دستورات")
 def helpsudo(m):
   if is_sudo(m.from_user.id):
-   bot.reply_to(m,helpsudo)
+   bot.reply_to(m,sudohelp)
 
 @bot.message_handler(func=lambda m: m.text == "خروج")
 def leave(m):
@@ -96,4 +96,8 @@ def expireend(m):
   except:
     print('err')
 	
+@bot.message_handler(func=lambda m: m.text == "مجیک" or m.text == "magic")
+def magic(m):
+   bot.reply_ro(m,about)
+
 #Tools
