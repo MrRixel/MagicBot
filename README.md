@@ -18,4 +18,7 @@ chmod +x install.sh
 chmod +x launch.sh
 screen ./lanch.sh
 ```
-> * test
+
+# تغییر اطلاعات فایل config.py
+> * توکن خود را از @BotFather دریافت کنید و در قسمت توکن جایگزین کنید
+>* آیدی خود را در قسمت سودو ها بزارید
