@@ -3,12 +3,13 @@
 
 مجیک استار ربات آنتی اسپم تلگرام
 
-## نصب و اجرا ربات
+## نصب ربات
 
 ```
 git clone https://github.com/Magic-Star/MagicBot
 cd MagicBot
-./bot.py
+chmod +x install.sh
+./install.sh
 ```
 
 ## اجرا بدون خاموشی
