@@ -2,7 +2,7 @@
 
 Token = "Your-Token"
 
-helpsudo = '''💫 راهنمای مجیک استار مخصوص سودو ها.
+sudohelp = '''💫 راهنمای مجیک استار مخصوص سودو ها.
 
 ⚡️روشن
 #روشن کردن ربات در گروه.
@@ -89,6 +89,13 @@ starttext = '''
 ⚜️ ساخته شده با ❤️ فقط برای شما ☺️
 Git : https://github.com/Magic-Star/MagicBot.git
 @MagicStar'''
+
+about = '''Magic Star Bot .
+Version : 1.2
+Channel : @MagicStar
+Bot : @MagicStarRobot
+Github : https://github.com/Magic-Star/MagicBot
+'''
 
 Plugins = [
 "start",
